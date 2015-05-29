@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Unimodelo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="escudo" translatesAutoresizingMaskIntoConstraints="NO" id="7M7-7t-ety">
+                                <rect key="frame" x="125" y="20" width="350" height="240"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fS4-hG-pYO" userLabel="TextContainer">
+                                <rect key="frame" x="0.0" y="280" width="600" height="320"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Universidad" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="JHz-dn-0sF">
+                                        <rect key="frame" x="0.0" y="50" width="600" height="177"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="150"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="widthClass=compact">
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="90"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Modelo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="YFw-FJ-BhM">
+                                        <rect key="frame" x="0.0" y="93" width="600" height="177"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="150"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="widthClass=compact">
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="90"/>
+                                        </variation>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.019607843137254902" green="0.12941176470588237" blue="0.27843137254901962" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="YFw-FJ-BhM" secondAttribute="bottom" constant="50" id="1WR-4Q-lck"/>
+                                    <constraint firstItem="JHz-dn-0sF" firstAttribute="top" secondItem="fS4-hG-pYO" secondAttribute="top" constant="50" id="AT5-cH-Thn"/>
+                                    <constraint firstItem="YFw-FJ-BhM" firstAttribute="width" secondItem="fS4-hG-pYO" secondAttribute="width" id="E0H-mi-CwW"/>
+                                    <constraint firstItem="JHz-dn-0sF" firstAttribute="width" secondItem="fS4-hG-pYO" secondAttribute="width" id="LNc-8l-1hG"/>
+                                    <constraint firstAttribute="centerX" secondItem="YFw-FJ-BhM" secondAttribute="centerX" id="oqj-LA-bra"/>
+                                    <constraint firstAttribute="centerX" secondItem="JHz-dn-0sF" secondAttribute="centerX" id="r6c-SU-TqV"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fS4-hG-pYO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="3HC-on-pN2"/>
+                            <constraint firstItem="7M7-7t-ety" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="76I-7V-B6E"/>
+                            <constraint firstItem="fS4-hG-pYO" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="JKr-S1-R7X"/>
+                            <constraint firstItem="fS4-hG-pYO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="LFZ-Vm-bQS"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="fS4-hG-pYO" secondAttribute="bottom" id="VRJ-0B-3D2"/>
+                            <constraint firstItem="fS4-hG-pYO" firstAttribute="top" secondItem="7M7-7t-ety" secondAttribute="bottom" constant="20" id="ZZk-pV-OGY"/>
+                            <constraint firstItem="7M7-7t-ety" firstAttribute="height" relation="lessThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.4" id="dKA-3L-Yor"/>
+                            <constraint firstAttribute="centerY" secondItem="7M7-7t-ety" secondAttribute="centerY" id="nf4-LR-1b5"/>
+                            <constraint firstAttribute="trailing" secondItem="fS4-hG-pYO" secondAttribute="trailing" id="pF8-B4-hoc"/>
+                            <constraint firstItem="7M7-7t-ety" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="qnb-fN-v25"/>
+                            <constraint firstItem="7M7-7t-ety" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.45" id="uBv-7j-Npj"/>
+                            <constraint firstAttribute="centerX" secondItem="7M7-7t-ety" secondAttribute="centerX" id="y0C-70-G8q"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="nf4-LR-1b5"/>
+                                <exclude reference="qnb-fN-v25"/>
+                                <exclude reference="uBv-7j-Npj"/>
+                                <exclude reference="3HC-on-pN2"/>
+                                <exclude reference="JKr-S1-R7X"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <exclude reference="76I-7V-B6E"/>
+                                <exclude reference="dKA-3L-Yor"/>
+                                <include reference="nf4-LR-1b5"/>
+                                <include reference="qnb-fN-v25"/>
+                                <include reference="uBv-7j-Npj"/>
+                                <exclude reference="y0C-70-G8q"/>
+                                <include reference="3HC-on-pN2"/>
+                                <include reference="JKr-S1-R7X"/>
+                                <exclude reference="LFZ-Vm-bQS"/>
+                                <exclude reference="ZZk-pV-OGY"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="escudo" width="350" height="356"/>
+    </resources>
+</document>
